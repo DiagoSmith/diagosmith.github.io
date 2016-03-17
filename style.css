@@ -32,6 +32,15 @@ li.chosen {
 	text-decoration: none;
 }
 
+.navbar .logo {
+	float: left;
+	font-family: SignPainter-HouseScript;
+	font-size:45px;
+	color: #E7E3E8;
+	text-decoration: none;
+}
+
+
 .navbar li a {
 	font-family: JCkg;
 	font-size: 20px;
