@@ -1,0 +1,88 @@
+body {
+ position:relative;
+ margin: 0px;
+}
+.container  {
+	height: 100%;
+	width: 100%;
+}
+
+
+.navbar {
+	background: #C13636;
+	width: 100%;
+	
+	
+}
+
+.navbar ul {
+	margin: 0px;
+}
+
+.navbar li {
+	display:inline;
+	float: right;
+}
+
+li.chosen {
+	float: left;
+	font-family: JCkg;
+	font-size: 20px;
+	color: #E7E3E8;
+	text-decoration: none;
+}
+
+.navbar li a {
+	font-family: JCkg;
+	font-size: 20px;
+	color: #E7E3E8;
+	line-height: 100px;   /* This changes the whole height of the nav bar */
+	padding-right: 40px; /* Make the text go the right */
+	text-decoration: none;
+
+}
+
+.navbar li a:hover {
+text-decoration: underline;
+
+}
+
+.footie {
+	background: #C13636;
+	width: 100%;
+	padding-bottom: 15px;
+}
+
+.footie p {
+font-family: JCkg;
+font-size: 15px;
+color: #E7E3E8;
+background: #C13636;
+text-align: center;
+margin:0px;
+}
+
+.mainspace p {
+font-family: JCkg;
+font-size: 20px;
+color: #E7E3E8;
+text-align: center;
+margin:0px;
+padding-top:20px;
+padding-bottom: 200px;
+}
+
+.mainspace h1 {
+font-family: SignPainter-HouseScript;
+font-size: 200px;
+color: #E7E3E8;
+text-align: center;
+margin:0px;
+}
+
+
+.mainspace {
+background: #C13838;
+width: 100%;
+padding-top: 200px;
+}
