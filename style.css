@@ -29,6 +29,11 @@ background: #C13636;
 	text-align: center;
 }
 
+#giantboxp {
+	text-align: center;
+}
+
+
 #giantbox h1 {
 	color: #E7E3E8;
 	font-family: SignPainter-HouseScript;
@@ -38,11 +43,27 @@ background: #C13636;
 
 }
 
+#giantboxp h1 {
+	color: #E7E3E8;
+	font-family: SignPainter-HouseScript;
+	font-size: 160px;
+	font-size: 18vmax;
+	padding-top: 4%;
+
+}
+
 #giantbox p {
 	color: #E7E3E8;
 	font-family: JCkg;
 	font-size: 180%;
 	margin-top: -3%;
+}
+
+#giantboxp p {
+	color: #E7E3E8;
+	font-family: JCkg;
+	font-size: 180%;
+	margin-top: 2%;
 }
 
 #footer {
