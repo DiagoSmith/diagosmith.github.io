@@ -1,46 +1,60 @@
 <html>
 <head>
 	<title>RoFlo</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"/>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="style.css">  
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 
-	<div class ="navbar"> 
-		<nav>
-			<ul>
+	<nav role="navigation" id="navbarz" class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class= "navbar-header ">
+				<button type="button" data-toggle="collapse" data-target="#navbar-inverse" aria-expanded="false" aria-controls="navbar" class="navbar-toggle collapsed"> 
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class ="navbar-brand" href="#">RoFlo</a>
+			</div>
 
-			<li><a href="projects.html">Projects</a></li>
-			<li><a href="cv.html">CV</a></li>
-			<li><a href="about.html">About</a></li>
-			<li class= "chosen"><a href="dutch.html">NL</a></li>
-			</ul>
-		</nav>
-	</div>
-<div class = "container">
-	<div class = "mainspace">
-		<h1> RoFlo. <p class = "mainspace"> Full-stack web developer & professional imposter.
-    Sprinkled with a dash of UX design.
-	</p>
-		</h1>
-		
-	</div> 
-	<div class = "footie">
-			<p> As per standard web design, here is a footer complete with the standard social 
+			<div id="navbar-inverse" class="collapse navbar-collapse navbar-right">
+				<ul class="nav navbar-nav orientationav">
+					<li class="navtext"><a href="/scarborough">About</a></li>
+					<li class="navtext"><a href="/scarborough">CV</a></li>
+					<li class="navtext"><a href="/enquiries">Projects</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container-fluid">
+ 		 <div class="row" id = "giantbox">
+    
+    	<h1> RoFlo. </h1>
+		<p> Full-stack web developer & professional imposter.
+			Sprinkled with a dash of UX design.
+		</p>
+  
+
+  		</div>
+  	</div>
+  		<div class= "footer navbar-fixed-bottom" id= "footer">
+  			<a class ="navbar-brand navbar-right" href="#">LinkedIn</a>
+  			<a class ="navbar-brand navbar-right" href="#">GitHub</a>
+  			<p id="f"> As per standard web design, here is a footer complete with the standard social 
 				media links and copyright malarky.
 			</p>
 			<p>
-			There is nothing particularly interesting to be 
-			found here. Sorry. &copy; Roberto Floris 2016
+				There is nothing particularly interesting to be 
+				found here. Sorry. &copy; Roberto Floris 2016
 			</p>
-			
 
-	</div>
-	<div class ="social">
-				<a href="https://nl.linkedin.com/in/roberto-floris-5a965787
-"><img src="assets/linkedin.png" height="35px" width="35px"></a>
-			<a href="https://github.com/DiagoSmith"><img src="assets/github.png" height="35px" width="35px"></a>
-			</div>
-</div>
+		</div>
 
-</body>
-</html>
+
+		</body>
+		</html>
