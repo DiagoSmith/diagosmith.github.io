@@ -84,6 +84,34 @@ background: #C13636;
 	
 }
 
+.about {
+	padding: 10%;
+}
+
+.about #text {
+	font-size: 4vh;
+	color: white;
+	background-color: gray;
+	margin: 20px;
+}
+
+.about #info {
+	font-size: 4vh;
+	color: white;
+	background-color: black;
+	margin: 20px;
+
+}
+
+.about #info li a {
+	text-decoration: none;
+	
+}
+.about #info ul li {
+	list-style-type: none;
+	
+}
+
 
 
 
