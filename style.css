@@ -5,7 +5,7 @@ background: #C13636;
 
 #navbarz {
 	background: #C13636;
-	font-family: JCkg;
+	font-family: 'Nixie One', cursive;
 	font-size: 20px;
 	padding: 2%;
 	border-width: 0;
@@ -22,7 +22,7 @@ background: #C13636;
 
 #navbarz .navbar-brand {
 	color: #E7E3E8;
-	font-family: SignPainter-HouseScript;
+	font-family: 'Pacifico', cursive;
 	font-size: 45px;
 }
 
@@ -37,39 +37,39 @@ background: #C13636;
 
 #giantbox h1 {
 	color: #E7E3E8;
-	font-family: SignPainter-HouseScript;
-	font-size: 160px;
-	font-size: 23vmax;
-	padding-top: 4%;
-
-}
-
-#giantboxp h1 {
-	color: #E7E3E8;
-	font-family: SignPainter-HouseScript;
+	font-family: 'Pacifico', cursive;
 	font-size: 160px;
 	font-size: 18vmax;
 	padding-top: 4%;
 
 }
 
+#giantboxp h1 {
+	color: #E7E3E8;
+	font-family: 'Pacifico', cursive;
+	font-size: 160px;
+	font-size: 16vmax;
+	padding-top: 4%;
+
+}
+
 #giantbox p {
 	color: #E7E3E8;
-	font-family: JCkg;
-	font-size: 180%;
-	margin-top: -3%;
+	font-family: 'Nixie One', cursive;
+	font-size: 175%;
+	margin-top: 0%;
 }
 
 #giantboxp p {
 	color: #E7E3E8;
-	font-family: JCkg;
+	font-family: 'Nixie One', cursive;
 	font-size: 180%;
-	margin-top: 2%;
+	margin-top: 6%;
 }
 
 #footer {
 	color: #E7E3E8;
-	font-family: JCkg;
+	font-family: 'Nixie One', cursive;
 	font-size: 100%;
 	text-align: center;
 	background-color: #C13636;
